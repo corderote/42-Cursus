@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pcordero <pcordero@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: pcordero <pcordero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/30 13:21:50 by pcordero          #+#    #+#             */
-/*   Updated: 2026/01/31 17:59:25 by pcordero         ###   ########.fr       */
+/*   Updated: 2026/02/02 16:21:02 by pcordero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-static int validate_args(int argc, char **argv) 
+int validate_args(int argc, char **argv) 
 {
 	int valid;
 	int idx;
@@ -43,6 +43,7 @@ static int validate_args(int argc, char **argv)
 				valid = -1;
 		}
 	}
+	
 	if (valid == -1)
 		ft_printf("Error\n");
 	return valid;
