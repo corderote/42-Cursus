@@ -17,8 +17,10 @@
 t_list *init_stack(int argc, char **argv);
 void push_swap(t_list *stack);
 
-// Push Swap Commands.
+// push_swap commands.
 void push(t_list stack_a, t_list stack_b);
 void swap(t_list stack);
 void rotate(t_list stack);
 
+// push_swap validation.
+int validate_args(int argc, char **argv);
