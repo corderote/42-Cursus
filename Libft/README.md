@@ -13,6 +13,12 @@
 This is the first project to tackle as a student of the **42 Cursus** experience. In wich we have to recreate some basic functions from the standard library. 
 This project is made to evolve along the student, including new functions and utilities as we develop further projects for the curse. 
 
+<div align=center>
+The main content submitted for the evaluation can be found following this link:
+
+<a href="https://github.com/corderote/42-Cursus/tree/64e5e0a1df25b8f7c065951e4ebc795cb5fea260/Libft">Libft Original Project</a>
+</div>
+
 ## Instructions: 
 
 ### Requirements:
